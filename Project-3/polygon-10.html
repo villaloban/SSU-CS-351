@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="initShaders.js"></script>
+
+        <script id="vertex-shader" type="x-shader/x-vertex">
+	precision mediump float;
+
+	uniform float N;
+
+	void main() {
+    	if (gl_VertexID == 0) {
+        	gl_Position = vec4(0.0, 0.0, 0.0, 1.0);
+        	return;
+    	}
+
+    	float i = float(gl_VertexID - 1);
+    	float angle = 2.0 * 3.1415926 * i / N;
+
+    	vec2 pos = 0.7 * vec2(cos(angle), sin(angle));
+    	gl_Position = vec4(pos, 0.0, 1.0);
+	}
+	</script>
+
+
+        <script id="fragment-shader" type="x-shader/x-fragment">
+	precision mediump float;
+
+        out vec4 fragColor;   
+	void main() {
+	        fragColor = vec4(1.0, 0.0, 0.0, 1.0);
+            }
+        </script>
+
+        <script>
+            window.onload = () => {
+                var canvas = document.getElementById("webgl");
+                var gl = canvas.getContext("webgl2");
+
+		const vao = gl.createVertexArray();
+		gl.bindVertexArray(vao);
+                gl.clearColor(0.1, 0.1, 0.1, 1.0);
+
+                var program = initShaders(gl, "vertex-shader", "fragment-shader");
+                gl.useProgram(program);
+ 
+                // These are lines that we'll need a bit later.
+                 var uN = gl.getUniformLocation(program, "N");
+                // var uTime = gl.getUniformLocation(program, "t");
+
+
+                var render = () => {
+
+                    gl.clear(gl.COLOR_BUFFER_BIT);
+
+                    const N = 10; // number of vertices
+
+                    // Other code we'll need later, in combination with the
+                    //   code above marked for later use.
+                    gl.uniform1f(uN, N);
+                    
+                    gl.drawArrays(gl.TRIANGLE_FAN, 0, N + 2);
+
+                    requestAnimationFrame(render);
+                };
+
+                render();
+            };
+        </script>
+    </head>
+
+    <body>
+        <canvas id="webgl" width="512" height="512"></canvas>
+    </body>
+</html>
