@@ -1,0 +1,52 @@
+alloca.out (list length = 20000):
+0.00 real	0.00 user	0.00 sys	3492 memory (KB)
+0.00 real	0.00 user	0.00 sys	4048 memory (KB)
+0.00 real	0.00 user	0.00 sys	4644 memory (KB)
+0.00 real	0.00 user	0.00 sys	4612 memory (KB)
+0.00 real	0.00 user	0.00 sys	4632 memory (KB)
+0.00 real	0.00 user	0.00 sys	4636 memory (KB)
+0.00 real	0.00 user	0.00 sys	4656 memory (KB)
+0.00 real	0.00 user	0.00 sys	4644 memory (KB)
+0.00 real	0.00 user	0.00 sys	4632 memory (KB)
+0.00 real	0.00 user	0.00 sys	4616 memory (KB)
+ min: 0.000000  avg: 0.000000  max: 0.000000
+
+list.out (list length = 20000):
+0.00 real	0.00 user	0.00 sys	4632 memory (KB)
+0.00 real	0.00 user	0.00 sys	4624 memory (KB)
+0.00 real	0.00 user	0.00 sys	5220 memory (KB)
+0.00 real	0.00 user	0.00 sys	5216 memory (KB)
+0.00 real	0.00 user	0.00 sys	5220 memory (KB)
+0.00 real	0.00 user	0.00 sys	4056 memory (KB)
+0.00 real	0.00 user	0.00 sys	4056 memory (KB)
+0.00 real	0.00 user	0.00 sys	5208 memory (KB)
+0.00 real	0.00 user	0.00 sys	5220 memory (KB)
+0.01 real	0.00 user	0.00 sys	5216 memory (KB)
+ min: 0.000000  avg: 0.001000  max: 0.010000
+
+malloc.out (list length = 20000):
+0.00 real	0.00 user	0.00 sys	3464 memory (KB)
+0.00 real	0.00 user	0.00 sys	4644 memory (KB)
+0.00 real	0.00 user	0.00 sys	4068 memory (KB)
+0.00 real	0.00 user	0.00 sys	4056 memory (KB)
+0.00 real	0.00 user	0.00 sys	4060 memory (KB)
+0.00 real	0.00 user	0.00 sys	4616 memory (KB)
+0.00 real	0.00 user	0.00 sys	4644 memory (KB)
+0.00 real	0.00 user	0.00 sys	4632 memory (KB)
+0.00 real	0.00 user	0.00 sys	3480 memory (KB)
+0.00 real	0.00 user	0.00 sys	3480 memory (KB)
+ min: 0.000000  avg: 0.000000  max: 0.000000
+
+new.out (list length = 20000):
+0.00 real	0.00 user	0.00 sys	5192 memory (KB)
+0.00 real	0.00 user	0.00 sys	5232 memory (KB)
+0.00 real	0.00 user	0.00 sys	5220 memory (KB)
+0.00 real	0.00 user	0.00 sys	5220 memory (KB)
+0.00 real	0.00 user	0.00 sys	5212 memory (KB)
+0.01 real	0.00 user	0.00 sys	4652 memory (KB)
+0.00 real	0.00 user	0.00 sys	5212 memory (KB)
+0.00 real	0.00 user	0.00 sys	4064 memory (KB)
+0.00 real	0.00 user	0.00 sys	5208 memory (KB)
+0.00 real	0.00 user	0.00 sys	4648 memory (KB)
+ min: 0.000000  avg: 0.001000  max: 0.010000
+

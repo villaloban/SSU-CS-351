@@ -1,0 +1,52 @@
+alloca.out (list length = 20000):
+0.11 real	0.07 user	0.02 sys	43792 memory (KB)
+0.11 real	0.08 user	0.02 sys	44388 memory (KB)
+0.11 real	0.08 user	0.03 sys	43780 memory (KB)
+0.10 real	0.07 user	0.03 sys	43796 memory (KB)
+0.10 real	0.07 user	0.02 sys	43808 memory (KB)
+0.11 real	0.07 user	0.03 sys	43812 memory (KB)
+0.11 real	0.07 user	0.03 sys	43808 memory (KB)
+0.11 real	0.07 user	0.03 sys	43800 memory (KB)
+0.11 real	0.08 user	0.03 sys	43804 memory (KB)
+0.10 real	0.07 user	0.02 sys	43812 memory (KB)
+ min: 0.100000  avg: 0.107000  max: 0.110000
+
+list.out (list length = 20000):
+0.11 real	0.08 user	0.02 sys	44360 memory (KB)
+0.10 real	0.08 user	0.02 sys	44384 memory (KB)
+0.11 real	0.08 user	0.02 sys	44364 memory (KB)
+0.11 real	0.08 user	0.02 sys	43812 memory (KB)
+0.11 real	0.08 user	0.02 sys	44976 memory (KB)
+0.11 real	0.08 user	0.02 sys	44380 memory (KB)
+0.11 real	0.08 user	0.02 sys	44976 memory (KB)
+0.10 real	0.08 user	0.01 sys	44964 memory (KB)
+0.10 real	0.08 user	0.02 sys	44964 memory (KB)
+0.11 real	0.08 user	0.02 sys	44356 memory (KB)
+ min: 0.100000  avg: 0.107000  max: 0.110000
+
+malloc.out (list length = 20000):
+0.10 real	0.08 user	0.02 sys	43796 memory (KB)
+0.10 real	0.07 user	0.03 sys	42648 memory (KB)
+0.11 real	0.08 user	0.02 sys	44360 memory (KB)
+0.11 real	0.08 user	0.02 sys	43812 memory (KB)
+0.11 real	0.08 user	0.02 sys	43784 memory (KB)
+0.11 real	0.08 user	0.02 sys	43812 memory (KB)
+0.11 real	0.08 user	0.02 sys	43804 memory (KB)
+0.11 real	0.08 user	0.02 sys	44388 memory (KB)
+0.10 real	0.07 user	0.02 sys	43808 memory (KB)
+0.11 real	0.08 user	0.02 sys	43804 memory (KB)
+ min: 0.100000  avg: 0.107000  max: 0.110000
+
+new.out (list length = 20000):
+0.11 real	0.08 user	0.02 sys	44376 memory (KB)
+0.11 real	0.08 user	0.02 sys	44388 memory (KB)
+0.11 real	0.08 user	0.01 sys	43804 memory (KB)
+0.11 real	0.08 user	0.03 sys	44360 memory (KB)
+0.11 real	0.08 user	0.03 sys	44388 memory (KB)
+0.10 real	0.08 user	0.02 sys	44388 memory (KB)
+0.11 real	0.08 user	0.02 sys	44388 memory (KB)
+0.11 real	0.08 user	0.02 sys	44952 memory (KB)
+0.10 real	0.08 user	0.02 sys	44364 memory (KB)
+0.11 real	0.08 user	0.02 sys	44368 memory (KB)
+ min: 0.100000  avg: 0.108000  max: 0.110000
+
